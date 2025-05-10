@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Inscrição - Torneio de Ciclismo</title>
+</head>
+<body>
+    <header>
+        <h1>Fomulário de inscrição - Torneio de Ciclismo</h1>
+    </header>
+    <main>
+        <form>
+            <div class="informacoes">
+               <label for="nomecompleto">Nome Completo:</label>
+               <input type="text" id="nomecompleto" name="nomecompleto" required><br>
+
+               <label for="datanascimento">Data Nascimento:</label>
+               <input type="date" id="datanascimento" name="datanascimento" required><br>
+            </div>   
+
+            <div class="modalidade">
+                <p>Escolha sua Modalidade:</p>
+                <input type="radio" id="mountain" name="modalidade" value="mountain bike">
+                <label for="mountain">Mountain Bike</label>
+
+               <input type="radio" id="estrada" name="modalidade" value="estrada">
+               <label for="estrada">Estrada</label>
+            </div>
+
+            <div class="experiencia">
+                <p>Nível de Esperiência:</p>
+               <input type="radio" id="iniciante" name="experiencia" value="iniciante">
+               <label for="iniciante">Iniciante</label>
+
+               <input type="radio" id="intermediario" name="experiencia" value="intermediario">
+               <label for="intermediario">Intermediario</label>
+
+               <input type="radio" id="avancado" name="experiencia" value="avancado">
+               <label for="avancado">Avançado</label>
+            </div>
+               
+            <div class="alimentacao"><p>Possui interesse em alimentação?</p>
+               <input type="radio" id="sim" name="interesseAlimentacao" value="sim">
+               <label for="sim">Sim</label>
+
+               <input type="radio" id="nao" name="interesseAlimentacao" value="nao">
+               <label for="nao">Não</label>
+
+               <p>Caso na escolha de 'Sim', selecione de acordo com sua preferência:</p>
+
+               <input type="checkbox" id="agua" name="alimentacao" value="agua">
+               <label for="agua">Água</label><br>
+
+               <input type="checkbox" id="lancherapido" name="alimentacao" value="lancherapido">
+               <label for="lancherapido">Lanche Rápido</label><br>
+
+               <input type="checkbox" id="lanchereforcado" name="alimentacao" value="lanchereforcado">
+               <label for="lanchereforcado">Lanche Reforçado</label><br>
+
+               <input type="checkbox" id="coca" name="alimentacao" value="coca">
+               <label for="coca">Coca-cola sem Açúcar</label><br>
+
+               <input type="checkbox" id="barra" name="alimentacao" value="barra">
+               <label for="barra">Barra de Proteina</label><br>
+            </div>
+
+            <div class="termos">
+                <p>*Termos de Participação</p>
+                <input type="checkbox" id="termos" name="termos" value="termos">
+               <label for="termos">Li e aceito os termos e condições do torneio</label><br>
+            </div>
+               
+            <div class="botao">
+                <button type="submit">Enviar Inscrição</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>© 2025 Torneio de Ciclismo. Todos os direitos reservados.</p>
+        <p>Contato: ciclismo@evento.com | (99) 99999-9999</p>
+        <a href="#">Instagram</a> | 
+        <a href="#">Facebook</a> | 
+        <a href="#">Site Oficial</a>
+        <p>Organizado por Federação Regional de Ciclismo</p>
+    </footer>
+</body>
+</html>

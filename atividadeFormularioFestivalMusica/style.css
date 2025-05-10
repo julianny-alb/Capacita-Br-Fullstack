@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h2 {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #3d3d3d;
+    padding: 25px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #cccccc;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form input[type="tel"],
+form input[type="url"],
+form input[type="number"],
+form input[type="color"],
+form input[type="range"],
+form input[type="datetime-local"],
+form input[type="month"],
+form input[type="time"],
+form input[type="week"],
+form input[type="search"] {
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+}
+
+form input[type="range"] {
+    accent-color: #888;
+}
+
+form input[type="color"] {
+    padding: 0;
+    height: 40px;
+}
+
+form input::placeholder {
+    color: #888;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #111111;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a3a3a3;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+}

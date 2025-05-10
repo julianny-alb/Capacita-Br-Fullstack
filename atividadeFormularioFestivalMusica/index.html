@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Inscrição - Festival de Música</title>
+</head>
+<body>
+    <header>
+        <h2>Formulário de Inscrição do Festival de Música</h2>
+    </header>
+    <main>
+        <form>
+            <div class="informacoes">
+                <label for="nome">Nome Completo:</label> <br>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required> <br>
+
+                <label for="datanascimento">Data Nascimento:</label> <br>
+               <input type="date" id="datanascimento" name="datanascimento" required> <br>
+
+                <label for="email">Email:</label> <br>
+                <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required> <br>
+
+                <label for="telefone">Telefone para contato:</label> <br>
+                <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" required> <br>
+            </div>
+
+            <div class="informacoesFestival">
+                <label for="cor">Cor da credencial:</label> <br>
+                <input type="color" id="cor" name="cor" required> <br>
+
+                <label for="experiencia">Nível de experiência musical em uma escala de 1 a 10:</label> <br>
+                <input type="range" id="experiencia" name="experiencia" min="1" max="10" required> <br>
+
+                <label for="protifolio">Link para o portfólio musical:</label> <br>
+                <input type="url" id="protifolio" name="protifolio" placeholder="https://meuportifolio.com" required> <br>
+
+                <label for="datahora">Data e hora preferida para o workshop:</label> <br>
+                <input type="datetime-local" id="datahora" name="datahora" required> <br>
+
+                <label for="mes">Mês disponível para apresentação:</label> <br>
+                <input type="month" id="mes" name="mes" required> <br>
+
+                <label for="horario">Horário disponível para ensaios:</label> <br>
+                <input type="time" id="horario" name="horario" required> <br>
+
+                <label for="semana">Semana do Festival que deseja participar:</label> <br>
+                <input type="week" id="semana" name="semana" required> <br>
+
+                <label for="ingresso">Número de ingressos desejados:</label> <br>
+                <input type="number" id="ingresso" name="ingresso" required> <br>
+
+                <label for="genero">Gêneros musicais de interesse:</label> <br>
+                <input type="search" id="genero" name="genero" placeholder="Ex:Jazz, Rock, Pop" ><br>
+            </div>
+
+            <div class="button">
+                <button type="submit">Enviar Inscrição</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2025 Festival de Música. Todos os direitos reservados.</p>
+        <p>Contato: <a href="mailto:contato@festivalmusica.com">contato@festivalmusica.com</a></p>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">YouTube</a>
+        <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+    </footer>
+</body>
+</html>
