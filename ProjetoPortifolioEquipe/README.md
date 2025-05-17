@@ -27,6 +27,14 @@ O objetivo é apresentar um portfólio em grupo com as principais habilidades ad
 - Criar um portfólio profissional colaborativo.
 - Praticar habilidades em HTML, CSS e versionamento com GIT e GITHUB.
 
+## 👩‍💻 Sobre mim
+
+Olá! Meu nome é Julianny, sou estudante de Análise e Desenvolvimento de Sistemas.  
+Participo do programa Capacita BR e estou em busca de aprender, crescer na área de tecnologia e aplicar meus conhecimentos em projetos reais.
+
+- 💻 Interesses: Desenvolvimento Web, Análise de Dados, Inteligência Artificial.
+
+
 ## 🛠️ Principais Comandos GIT utilizados
 
 | Comando| Função |
